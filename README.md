@@ -68,6 +68,7 @@
     `ca` - number of major vessels (0-3) colored by flourosopy
     `thal` - 0 = normal; 1 = fixed defect; 2 = reversible defect
   Example data:
+    
     age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target
     52,1,0,125,212,0,1,168,0,1,2,2,3,0
     53,1,0,140,203,1,0,155,1,3.1,0,0,3,0
