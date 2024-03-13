@@ -51,6 +51,25 @@
 
 ## Contributing
   Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+  
+  Information related to the dataset:
+    - `age` - age in years
+    - `gender` - gender (1 = Male; 0 = Female)
+    - `cp` - Chest pain type (0 = typical angina; 1 = atypical angina; 2 = non-anginal pain; 3=asymptomatic)
+    - `trestbps` - resting blood pressure (in mm Hg)
+    - `cholesterol` - serum cholesterol in mg/dl
+    - `fbs` - fasting blood sugar > 120mg/dl (1=true;0=false)
+    - `restecg` - resting electrocardiographic results (0 = normal; 1 = ST-T; 2 = hypertrophy)
+    - `thalach` - maximum heart rate
+    - `exang` - exercise induced angina (1 = yes;0 = no)
+    - `oldpeak` - ST depression induced by exercise
+    - `slope` - the slope of the peak exercise ST segment (0 = upsloping; 1= flat; 2=downsloping)
+    - `ca` - number of major vessels (0-3) colored by flourosopy
+    - `thal` - 0 = normal; 1 = fixed defect; 2 = reversible defect
+  Example data:
+    age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target
+    52,1,0,125,212,0,1,168,0,1,2,2,3,0
+    53,1,0,140,203,1,0,155,1,3.1,0,0,3,0
 
 ## License
     Copyright [2024] [Hung Truong]
